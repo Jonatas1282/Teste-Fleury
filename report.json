@@ -1,0 +1,100 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: jonata.rosa@hotmail.com"
+      }
+    ],
+    "line": 4,
+    "elements": [
+      {
+        "line": 9,
+        "name": "Validar nome da unidade",
+        "description": "",
+        "id": "validar-titulo-da-unidade;validar-nome-da-unidade",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4765955500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "que eu esteja no site da Fleury",
+            "match": {
+              "location": "Steps.que_eu_esteja_no_site_da_Fleury()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 860908600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "acesso as unidades",
+            "match": {
+              "location": "Steps.acesso_as_unidades()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6871046200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "seleciono a opcao de facilidade",
+            "match": {
+              "location": "Steps.seleciono_a_opcao_de_facilidade()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 202209600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "seleciono a primeira unidade que aparece",
+            "match": {
+              "location": "Steps.seleciono_a_primeira_unidade_que_aparece()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3766292800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "valido o nome da unidade selecionada",
+            "match": {
+              "location": "Steps.valido_o_nome_da_unidade_selecionada()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@Execulta1"
+          }
+        ]
+      }
+    ],
+    "name": "Validar Titulo da Unidade",
+    "description": "Eu como usuario quero acessar o site da empresa, buscar uma unidade e validar o nome",
+    "id": "validar-titulo-da-unidade",
+    "keyword": "Feature",
+    "uri": "Fluery.feature",
+    "tags": [
+      {
+        "line": 3,
+        "name": "@Executa"
+      }
+    ]
+  }
+]
